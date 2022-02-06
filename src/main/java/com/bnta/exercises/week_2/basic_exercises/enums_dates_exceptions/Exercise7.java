@@ -5,6 +5,7 @@ Q7:  Create a method that sums days of the month for a given array of LocalDate
 package com.bnta.exercises.week_2.basic_exercises.enums_dates_exceptions;
 
 // Import LocalDate
+
 import java.time.LocalDate;
 
 public class Exercise7 {
@@ -17,18 +18,27 @@ public class Exercise7 {
         System.out.println("Total days of month: " + sumDaysOfMonth(dates));
     }
 
-    // sumDaysOfMonth method
-    // This method sums days of the month for a given array of LocalDate
+    // sumDaysOfMonth method - this method sums days of the month for a given array of LocalDate
     static int sumDaysOfMonth(LocalDate[] dates) {
         // Create and initialise variable to store the sum of the days of month
         int sum = 0;
         // Loop over the dates in the dates array, get each days of month value from each date, and add to the sum variable
-        for (int i = 0; i < dates.length; i++) {
-            int daysOfMonth = dates[i].getDayOfMonth();
+        // Using an enhanced for loop
+        for (LocalDate date : dates) {
+            int daysOfMonth = date.getDayOfMonth();
             sum += daysOfMonth;
         }
         // Return the total sum
         return sum;
     }
+
+//        // Loop over the dates in the dates array, get each days of month value from each date, and add to the sum variable
+//        for (int i = 0; i < dates.length; i++) {
+//            int daysOfMonth = dates[i].getDayOfMonth();
+//            sum += daysOfMonth;
+//        }
+//        // Return the total sum
+//        return sum;
+//    }
 
 }
