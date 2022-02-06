@@ -16,18 +16,24 @@ public class Exercise6 {
 
     public static void main(String[] args) {
 
+        // Create string array to be converted into integers
         String[] stringArr = {"1", "2", "a", "b", "foo", "3"};
 
+        // Create and initialise variable to store sum of integers
         int sum = 0;
 
+        // Create and initialise strings to hold values that can/cannot be converted to integers
         String notConvertedToInt = "";
         String convertedToInt = "";
 
+        // Loop through string array
         for (int i = 0; i < stringArr.length; i++) {
+            // Test for errors while code block is executed
             try {
                 // convertedToInt += Integer.parseInt(stringArr[i]) + " ";
                 convertedToInt += Integer.parseInt(stringArr[i]) + ", ";
                 sum += Integer.parseInt(stringArr[i]);
+            // Execute code block if error occurs in the try block
             } catch (Exception e) {
                 // notConvertedToInt += stringArr[i] + " ";
                 notConvertedToInt += stringArr[i] + ", ";
