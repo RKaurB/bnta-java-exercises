@@ -18,7 +18,8 @@ public class Exercise3 {
     }
 
     public static String oddOrEven(int num) {
-        String result = "";
+        // String result = "";
+        String result;
         if (num % 2 == 0) {
             result = "Even";
         } else {
