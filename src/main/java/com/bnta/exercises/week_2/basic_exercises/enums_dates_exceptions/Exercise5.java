@@ -23,7 +23,7 @@ public class Exercise5 {
         // System.out.println("You are " + yourAge);
 
         // Call calculateAge method with date of birth, and save value in the variable age
-        LocalDate dob = LocalDate.of(1984, 2, 05);
+        LocalDate dob = LocalDate.of(1984, 2, 5);
         int age = calculateAge(dob);
         // Print calculated age
         System.out.println("You are " + age);
