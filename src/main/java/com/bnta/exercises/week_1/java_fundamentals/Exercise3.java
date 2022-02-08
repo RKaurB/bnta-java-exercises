@@ -5,24 +5,40 @@ package com.bnta.exercises.week_1.java_fundamentals;/*
     Output should be: hello how are you?. Note question mark at the end
 */
 
+import java.util.Arrays;
+
 public class Exercise3 {
     public static void main(String[] args) {
 
         String[] strContent = {"you", "are", "how", "hello"};
 
         // print array in order
-        // for (int i = 0; i < strContent.length; i++) {
-        //     System.out.println(strContent[i]);
-        // }
+//         for (int i = 0; i < strContent.length; i++) {
+//             System.out.println(strContent[i]);
+//         }
+        System.out.println("Original string content: " + Arrays.toString(strContent));
 
-        // print array in reverse
+//        // Print array in reverse (prints each word on a separate line)
+//        String reversedStr = "";
+//        // start at the end of the array (strContent.length - 1)
+//        // keep looping while i is greater than or equal to zero
+//        // and decrement by 1 each time
+//        for (int i = strContent.length - 1; i >= 0; i--) {
+//            System.out.println(strContent[i]);
+//            reversedStr += strContent[i] + "";
+//        }
+
+        // Print array in reverse (prints each word on the same line, separated by spaces and with a '?' at the end)
         String reversedStr = "";
         // start at the end of the array (strContent.length - 1)
         // keep looping while i is greater than or equal to zero
         // and decrement by 1 each time
         for (int i = strContent.length - 1; i >= 0; i--) {
-            System.out.println(strContent[i]);
-            reversedStr += strContent[i] + "";
+            reversedStr += strContent[i] + " ";
         }
+
+        // System.out.println("Reversed string: " + reversedStr);
+        System.out.println("Reversed string content: " + reversedStr.substring(0, reversedStr.length() - 1) + "?");
+
     }
 }
