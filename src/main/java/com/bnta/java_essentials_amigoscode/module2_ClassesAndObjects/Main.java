@@ -2,7 +2,7 @@
 //
 //package com.amigoscode.java_essentials.classes;
 //
-//public class Main {
+//public class com.bnta.s1_java_fundamentals_1.Main {
 //
 //    public static void main(String[] args) {
 //

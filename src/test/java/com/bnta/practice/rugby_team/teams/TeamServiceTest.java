@@ -1,12 +1,13 @@
 package com.bnta.practice.rugby_team.teams;
 
-import com.bnta.practice.rugby_team.managers.Manager;
-import com.bnta.practice.rugby_team.players.Player;
+import com.bnta.s10_intro_to_classes.rugby_team_practice.managers.Manager;
+import com.bnta.s10_intro_to_classes.rugby_team_practice.players.Player;
+import com.bnta.s10_intro_to_classes.rugby_team_practice.teams.Team;
+import com.bnta.s10_intro_to_classes.rugby_team_practice.teams.TeamService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 public class TeamServiceTest {
 
