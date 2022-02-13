@@ -3,7 +3,10 @@ package com.bnta.s02_java_fundamentals_2;
     /*
        Write a program that takes arguments from the program args and loops through args and prints each item in args
        Compile using: javac and run using: java
-       i.e. javac com.bnta.exercises.week_1.java_fundamentals.Exercise5.java | java com.bnta.exercises.week_1.java_fundamentals.Exercise5 foo bar baz
+       i.e.
+            cd src/main/java/
+            javac com/bnta/s02_java_fundamentals_2/Exercise5.java
+            java com/bnta/s02_java_fundamentals_2/Exercise5 foo bar baz
      */
 
 public class Exercise5 {
