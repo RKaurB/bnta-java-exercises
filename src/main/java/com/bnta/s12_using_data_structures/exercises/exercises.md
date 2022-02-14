@@ -22,7 +22,7 @@
 - Create a method. Think about the return type and parameters
 - Write unit tests for your method
 
-![alt Exercise 1 plan diagram](exercise1.png)
+![alt Exercise 1 plan diagram](images/exercise1.png)
 
 [Link to Exercise 1 solution](https://github.com/RKaurB/bnta-c4-java/blob/main/src/main/java/com/bnta/s12_using_data_structures/exercises/Exercise1.java)
 
@@ -36,7 +36,7 @@
 - Create a method. Think about the return type and parameters
 - Write unit tests for your method
 
-![alt Exercise 2 plan diagram](exercise2.png)
+![alt Exercise 2 plan diagram](images/exercise2.png)
 
 [Link to Exercise 2 solution](https://github.com/RKaurB/bnta-c4-java/blob/main/src/main/java/com/bnta/s12_using_data_structures/exercises/Exercise2.java)
 
@@ -73,8 +73,8 @@ return false;
 ```
 
 
-![alt Exercise 3 plan diagram](exercise3a.png)
+![alt Exercise 3 plan diagram](images/exercise3a.png)
 
-![alt Exercise 3 plan diagram](exercise3b.png)
+![alt Exercise 3 plan diagram](images/exercise3b.png)
 
 [Link to Exercise 3 solution](https://github.com/RKaurB/bnta-c4-java/blob/main/src/main/java/com/bnta/s12_using_data_structures/exercises/Exercise3.java)
